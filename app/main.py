@@ -16,7 +16,7 @@ class Input(BaseModel):
 
 @app.get('/')
 def index():
-    return {'message': 'Welcome to the Sentiment Analysis API'}
+    return {'message': 'Welcome to the Sentiment Analysis API :)'}
 
 
 @app.post('/predict')
